@@ -1,15 +1,26 @@
-
 body {
-  background-color: lightgray;
+  background-color: white;
   font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
-  color: darkblue;
+  color: darkgreen;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.3);
 }
 
+.description {
+   color: black;
+  font-size: 1.6em;
+  }
+ .logo {
+  width: 200px;
+ margin: auto;
+ } 
+
 p {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
