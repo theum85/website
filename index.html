@@ -33,8 +33,24 @@
       </section>
     </main>
     <footer>
-      <p>Vous pouvez me contacter à l'adresse <a href= "mailto:matthieu.pelard.conseil@etik.com">matthieu.pelard.conseil@etik.com</a> ou me suivre sur <a href="https://www.linkedin.com/in/matthieu-pelard-conduite-projet-nantes-/">linkedin</a>.</p>
+      <p>Vous pouvez me contacter via ce formulaire ou me suivre sur <a href="https://www.linkedin.com/in/matthieu-pelard-conduite-projet-nantes-/">linkedin</a>.</p>
       <p>Mentions légales</p>
     </footer>
+<form action="mailto:matthieu.pelard.conseil@etik.com" method="post" enctype="text/plain">
+  <label for="name">Nom :</label>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">E-mail :</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="subject">Objet :</label>
+  <input type="text" id="subject" name="subject" required><br>
+
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" required></textarea><br>
+
+  <input type="submit" value="Envoyer">
+</form>
+
   </body>
 </html>
