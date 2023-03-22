@@ -1,7 +1,7 @@
 /* Général */
 body {
   background-color: #f0f7eb;
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1em;
   line-height: 1.5em;
   margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #3f704d;
+  color: #29d45a;
   text-decoration: none;
 }
 
@@ -31,15 +31,16 @@ header {
 }
 
 .site-title {
-  color: #3f704d;
+  color: #4df537;
   font-size: 1.6em;
+  text-align: center;
 }
 
 /* Navigation */
 nav {
-  background-color: #3f704d;
+  background-color: #c5e0b4;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 10px 0;
 }
 
@@ -54,7 +55,7 @@ nav li {
 }
 
 nav a {
-  color: #ffffff;
+  color: #1db849;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -70,7 +71,7 @@ section {
 }
 
 .section-title {
-  color: #3f704d;
+  color: #275323;
   font-size: 1.3em;
   margin-bottom: 20px;
   text-align: center;
@@ -87,45 +88,10 @@ section {
   max-width: 100%;
 }
 
-/* Contact */
-.contact-form {
-  background-color: #f0f7eb;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.contact-title {
-  color: #3f704d;
-  font-size: 1.3em;
-  margin-bottom: 20px;
+.menu {
   text-align: center;
 }
 
-.contact-input {
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-.contact-input:focus {
-  outline: none;
-}
-
-.contact-textarea {
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-.contact-textarea:focus {
-  outline: none;
-}
-
-.contact-button {
-  background-color: #3f704d;
-  border: none;
-
+.menu ul {
+  display: inline-block;
 }
