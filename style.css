@@ -1,4 +1,5 @@
 /* Général */
+/* Fond d'écran et police générale du site */
 body {
   background-color: #f0f7eb;
   font-family: "Open Sans", sans-serif;
@@ -7,17 +8,36 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* Style des liens */
 a {
-  color: #29d45a;
+  color: #275323;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5fa580;
+  color: #275323;
 }
 
 /* Header */
+/* Conteneur du logo et du titre du site */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Style du logo */
+.logo {
+height: 150px; /* hauteur du logo */
+margin-right: 300px; /* marge à droite du logo */
+}
+
+
+/* Style du titre du site */
+h1 {
+font-size: 40px; /* taille de police du titre */
+}
+
+
 header {
   background-color: #ffffff;
   display: flex;
@@ -26,12 +46,8 @@ header {
   padding: 20px;
 }
 
-.logo {
-  width: 100px;
-}
-
 .site-title {
-  color: #4df537;
+  color: #275323;
   font-size: 1.6em;
   text-align: center;
 }
@@ -55,7 +71,7 @@ nav li {
 }
 
 nav a {
-  color: #1db849;
+  color: #275323;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -89,7 +105,7 @@ section {
 }
 
 .menu {
-  text-align: center;
+  text-align: left;
 }
 
 .menu ul {
