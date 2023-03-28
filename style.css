@@ -27,14 +27,14 @@ a:hover {
 }
 /* Style du logo */
 .logo {
-height: 150px; /* hauteur du logo */
+height: 200px; /* hauteur du logo */
 margin-right: 300px; /* marge à droite du logo */
 }
 
 
 /* Style du titre du site */
 h1 {
-font-size: 40px; /* taille de police du titre */
+font-size: 300%; /* taille de police du titre */
 }
 
 
@@ -57,7 +57,8 @@ nav {
   background-color: #c5e0b4;
   display: flex;
   justify-content: flex-start;
-  padding: 10px 0;
+  padding: 20px 0;
+  font-size: 160%; /* taille de police navigation */
 }
 
 nav ul {
