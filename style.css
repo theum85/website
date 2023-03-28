@@ -3,6 +3,7 @@
 body {
   background-color: #f0f7eb;
   font-family: "Open Sans", sans-serif;
+  text-align: "Justify";
   font-size: 1.1em;
   line-height: 1.5em;
   margin: 0;
@@ -30,7 +31,11 @@ a:hover {
 height: 200px; /* hauteur du logo */
 margin-right: 300px; /* marge à droite du logo */
 }
-
+/* Style du image */
+.image {
+height: 200px; /* hauteur du logo */
+margin-right: 300px; /* marge à droite du logo */
+}
 
 /* Style du titre du site */
 h1 {
@@ -49,7 +54,7 @@ header {
 .site-title {
   color: #275323;
   font-size: 1.6em;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Navigation */
